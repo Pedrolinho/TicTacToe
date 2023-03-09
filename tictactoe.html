@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
+</head>
+<body class="body">
+    <div class=" header">
+        <h1>TIC TAC TOE</h1>
+    </div>
+    <div class="message"> Turn: X</div>
+    <div class="board">
+        <div class="square" id="s1" onclick="action(id)"></div>
+        <div class="square" id="s2" onclick="action(id)"></div>
+        <div class="square" id="s3" onclick="action(id)"></div>
+        <div class="square" id="s4" onclick="action(id)"></div>
+        <div class="square" id="s5" onclick="action(id)"></div>
+        <div class="square" id="s6" onclick="action(id)"></div>
+        <div class="square" id="s7" onclick="action(id)"></div>
+        <div class="square" id="s8" onclick="action(id)"></div>
+        <div class="square" id="s9" onclick="action(id)"></div>
+    </div>
+    <div class="buttons">
+        <button class="button" id="undo" onclick="undo()">Undo Move</button>
+        <button class="button" id="restart" onclick="restart()">Play Again</button>
+    </div>
+    <div class="footer">
+        <table>
+            <tr>
+                <td><img src="image/planet.svg" alt="llama" width="15px"></td>
+                <td>Made by: Pedrolinho</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
